@@ -1,0 +1,142 @@
+body {
+    margin: auto;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.container > * {
+    margin-bottom: 1rem;
+}
+
+.add-item {
+    background-color: rgba(116, 197, 197, 0.479);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+}
+
+.search-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+    border: 2px solid rgba(116, 197, 197, 0.479);
+}
+
+#form2 {
+    width: 100%;
+    margin: auto;
+}
+
+.list {
+    background-color: rgba(116, 197, 197, 0.479);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 80%;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 2rem;
+}
+
+.input-add {
+    height: 1.5rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.input-add:focus {
+    outline: 1px solid black;
+}
+
+#btn-add {
+    height: 1.5rem;
+    transition: 0.3s;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+
+#btn-add:hover {
+    transition: 0.3s;
+    padding: 2px;
+}
+
+#btn-add:active {
+    transition: 0.3s;
+    border: 1px solid rgb(138, 199, 240);
+    padding: 2px;
+}
+
+#input-search {
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(116, 197, 197, 0.479);
+    width: 98%;
+    padding: 0.5rem;
+    font-size: 15px;
+}
+
+#input-search:focus {
+    outline: 1px solid black;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    cursor: default;
+}
+
+td, th {
+    text-align: left;
+    width: 10%;
+}
+td {
+    height: 2rem;
+    vertical-align: bottom;
+}
+
+.btnTd {
+    text-align: center;
+}
+
+.btnTd > button {
+    background-color: rgba(116, 197, 197, 0.479);
+    width: 60%;
+
+}
+
+.cell-btn {
+    width: 8%;
+}
+
+.item-row {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.table-header {
+    display: flex;
+}

@@ -1,0 +1,14 @@
+Funktionalitäten:
+    1. Add item
+    2. Remove item
+    3. Edit item
+    4. Sort out the list by category
+    5. Filter items
+
+Benutzeroberfläche:
+    Add item Component
+    Input field for searching items
+    List
+
+Objekte:
+    List item(id, name, category, year)

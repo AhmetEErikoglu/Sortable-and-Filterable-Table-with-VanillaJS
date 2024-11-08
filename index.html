@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>List</title>
+</head>
+<body>
+    <div class="container">
+        <div class="component add-item">
+            <h2 id="title-form">Add item</h2>
+            <form>
+                <input id="inputName" class="input-add" type="text" placeholder="Name...">
+                <input id="inputCategory" class="input-add" type="text" placeholder="Category...">
+                <input id="inputYear" class="input-add" type="number" placeholder="Year...">
+                <button id="btn-add" type="button">Add Item</button>
+            </form>
+        </div>
+        <div class="component search-item">
+            <div id="form2">
+                <h1>Search for Item</h1>
+                <input id="input-search" type="text" placeholder="Search for names...">
+            </div>
+        </div>
+        <div class="component list">
+            <table id="table-list">
+                <tr>
+                    <th id="sortBtnId">S.no</th>
+                    <th id="sortBtnName">Name</th>
+                    <th id="sortBtnCategory">Category</th>
+                    <th id="sortBtnYear">Year</th>
+                    <th class="cell-btn">Edit Entry</th>
+                    <th class="cell-btn">Delete Entry</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
